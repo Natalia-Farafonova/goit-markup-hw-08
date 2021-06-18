@@ -1,0 +1,36 @@
+// 0-767
+@media screen and (max-width: 1199px) {
+  .services {
+    display: none;
+  }
+}
+.services__list {
+  display: flex;
+  align-items: center;
+  mix-blend-mode: normal;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.services__item:not(:last-child) {
+  margin-right: 30px;
+}
+.services__inscription {
+  position: relative;
+}
+
+.services__text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 27px;
+  padding-right: auto;
+  color: var(--color-additional);
+  background: rgba(47, 48, 58, 0.8);
+}

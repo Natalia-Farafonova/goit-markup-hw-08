@@ -1,0 +1,139 @@
+.features__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.features__icon {
+  width: 70px;
+  height: 70px;
+  fill: var(--main-color);
+}
+
+.features__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+.features__description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+// 480+
+@media screen and (min-width: 480px) {
+  .features {
+    width: 480px;
+  }
+  .features__section {
+    width: 450px;
+    height: 120px;
+  }
+
+  .features__title {
+    text-align: center;
+  }
+
+  .features__description {
+    width: 450px;
+    height: 50px;
+  }
+}
+
+// 768+
+@media screen and (min-width: 768px) {
+  .features {
+    width: 768x;
+  }
+
+  .features__conteiner {
+    width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 507px;
+  }
+
+  .features__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    height: 507px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .features__item {
+    width: 354px;
+    height: 226px;
+    text-align: center;
+    margin-right: 30px;
+  }
+  .features__section {
+    width: 354px;
+    height: 120px;
+  }
+
+  .features__title {
+    text-align: left;
+  }
+
+  .features__description {
+    width: 354px;
+    // height: 75px;
+    text-align: left;
+  }
+}
+
+// 1200+
+@media screen and (min-width: 1200px) {
+  .features {
+    width: 1200px;
+  }
+  .features__conteiner {
+    width: 1170px;
+    height: 251px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .features__section {
+    width: 270px;
+    height: 120px;
+  }
+  .features__description {
+    width: 270px;
+    height: 75px;
+  }
+  .features__list {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .features__item {
+    width: 270px;
+    height: 251px;
+    flex-basis: calc((100% - 3 * 30px) / 4);
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .features {
+    padding-bottom: 0;
+  }
+}
