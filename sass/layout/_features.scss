@@ -7,6 +7,10 @@
   margin-bottom: 30px;
 }
 
+.features {
+  margin: 0 auto;
+}
+
 .features__icon {
   width: 70px;
   height: 70px;
@@ -103,6 +107,7 @@
   .features__conteiner {
     width: 1170px;
     height: 251px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
   }
