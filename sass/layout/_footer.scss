@@ -2,11 +2,6 @@
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-
-  // .container {
-  //   display: flex;
-  //   align-items: baseline;
-  // }
 }
 
 .footer__studio {
@@ -139,6 +134,32 @@
     height: 44px;
     padding: 0px;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__information {
+    display: inline-block;
+    margin-left: 76px;
+  }
+
+  .footer__container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  // .footer__logo {
+  //   display: block;
+  // }
+
+  // .footer__address {
+  //   display: inline-block;
+  // }
+
+  .scroll {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 89px;
   }
 }
 
