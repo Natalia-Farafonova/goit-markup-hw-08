@@ -3,10 +3,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  .container {
-    display: flex;
-    align-items: baseline;
-  }
+  // .container {
+  //   display: flex;
+  //   align-items: baseline;
+  // }
 }
 
 .footer__studio {
@@ -16,7 +16,6 @@
 .footer__logo {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   display: block;
@@ -25,8 +24,6 @@
 }
 
 .footer__description {
-  font-style: 400;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -61,13 +58,15 @@
   }
 }
 
-.footer__list:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.footer__mail,
-.footer__tel {
-  display: block;
+.scroll__title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--color-additional);
 }
 
 .scroll__list {
@@ -75,6 +74,12 @@
   justify-content: space-between;
   padding: 0;
   margin-top: 20px;
+}
+
+.scroll__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-additional);
 }
 
 .scroll__link {
@@ -93,32 +98,63 @@
     background-color: var(--accent-color);
   }
 }
+@media screen and (min-width: 480px) {
+  .footer__logo {
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-.scroll__item:not(:last-child) {
-  margin-right: 10px;
+  .footer__address {
+    font-style: normal;
+    text-align: center;
+  }
+
+  .footer__description {
+    margin-bottom: 8px;
+  }
+
+  .footer__mail {
+    margin-bottom: 8px;
+  }
+  .footer__list {
+    margin-bottom: 60px;
+  }
+
+  .scroll {
+    width: 206px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .scroll__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .scroll__list {
+    width: 206px;
+    height: 44px;
+    padding: 0px;
+    text-align: center;
+  }
 }
 
-.scroll__icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--color-additional);
-}
+// .footer__list:not(:last-child) {
+//   margin-bottom: 9px;
+// }
 
-.scroll__title {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin: 0;
-  color: var(--color-additional);
-}
+// .footer__mail,
+// .footer__tel {
+//   display: block;
+// }
 
-.scroll {
-  margin-left: 70px;
-}
+// .scroll__item:not(:last-child) {
+//   margin-right: 10px;
+// }
 
-.footer__address {
-  font-style: normal;
-}
+// .scroll {
+//   margin-left: 70px;
+// }
