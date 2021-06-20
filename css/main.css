@@ -313,18 +313,6 @@ body {
   display: inline-flex;
 }
 
-.main-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--color-additional);
-  margin: 0 auto 30px;
-  width: 696px;
-}
-
 .hero-conteiner {
   padding: 200px 0;
   align-items: center;
@@ -336,6 +324,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.main-title {
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-additional);
+  margin: 0 auto 30px;
 }
 
 .modal-btn {
@@ -357,6 +354,58 @@ body {
 
 .modal-btn:hover, .modal-btn:focus {
   background: #188ce8;
+}
+
+@media screen and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero-mob@1x.jpg);
+  }
+}
+
+@media screen and (min-width: 480px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero-mob@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .main-title {
+    font-size: 26px;
+    line-height: 1.61;
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero-tablet@1x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero-tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero-desktop@1x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero-desktop@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-title {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+  }
 }
 
 .features__section {
@@ -417,10 +466,9 @@ body {
     width: 768x;
   }
   .features__conteiner {
-    width: 738px;
+    width: 768px;
     padding-left: 15px;
     padding-right: 15px;
-    height: 507px;
   }
   .features__list {
     display: flex;
@@ -455,8 +503,7 @@ body {
     width: 1200px;
   }
   .features__conteiner {
-    width: 1170px;
-    height: 251px;
+    width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
