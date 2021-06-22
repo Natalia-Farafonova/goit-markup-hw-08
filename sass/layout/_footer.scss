@@ -102,6 +102,10 @@
     background-color: var(--accent-color);
   }
 }
+
+.scroll {
+  margin: 0 auto;
+}
 @media screen and (min-width: 480px) {
   .footer__logo {
     font-size: 24px;
@@ -126,6 +130,7 @@
   .scroll {
     width: 206px;
     text-align: center;
+    margin-top: 60px;
   }
 
   .scroll__title {

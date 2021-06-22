@@ -627,7 +627,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 768px;
-    height: 507px;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
@@ -838,6 +837,9 @@ body {
   .team__item:not(:last-child) {
     margin-right: 30px;
   }
+  .team__item:last-child {
+    margin-bottom: 30px;
+  }
   .team__img {
     width: 270px;
     height: 260px;
@@ -1023,6 +1025,10 @@ body {
   background-color: var(--accent-color);
 }
 
+.scroll {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 480px) {
   .footer__logo {
     font-size: 24px;
@@ -1043,6 +1049,7 @@ body {
   .scroll {
     width: 206px;
     text-align: center;
+    margin-top: 60px;
   }
   .scroll__title {
     text-align: center;
@@ -1417,6 +1424,9 @@ body {
 }
 
 @media screen and (min-width: 480px) {
+  .form {
+    margin-top: 60px;
+  }
   .form-field {
     display: block;
     text-align: center;
@@ -1425,12 +1435,6 @@ body {
   .btn-mail {
     display: block;
     margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .form {
-    margin-top: 60px;
   }
 }
 
@@ -1592,7 +1596,7 @@ body {
   .filters__list {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin-bottom: 30px;
   }
   .filters__item:nth-child(3) {
     margin-right: 8px;
@@ -1691,7 +1695,6 @@ body {
   .project__list {
     width: 450px;
     margin-top: 30px;
-    margin-left: 30px;
     background: #ffffff;
     box-sizing: border-box;
   }
@@ -1700,6 +1703,8 @@ body {
 @media screen and (min-width: 768px) {
   .project__conteiner {
     display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
     flex-wrap: wrap;
     width: 768px;
   }
@@ -1711,6 +1716,9 @@ body {
   .project__link {
     display: flex;
     flex-direction: column;
+  }
+  .scroll {
+    margin: 0;
   }
 }
 

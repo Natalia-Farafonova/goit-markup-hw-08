@@ -112,6 +112,10 @@
     &:not(:last-child) {
       margin-right: 30px;
     }
+
+    &:last-child {
+      margin-bottom: 30px;
+    }
   }
 
   .team__img {
