@@ -73,13 +73,17 @@
     display: block;
     text-align: center;
     width: 450px;
-    height: 156px;
-    margin-top: 60px;
   }
 
   .btn-mail {
     display: block;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    margin-top: 60px;
   }
 }
 
