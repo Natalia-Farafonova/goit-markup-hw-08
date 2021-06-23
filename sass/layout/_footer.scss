@@ -9,9 +9,9 @@
   margin: 0 auto;
 }
 
-.footer__container {
-  margin: 0 auto;
-}
+// .footer__container {
+//   margin: 0 auto;
+// }
 
 .footer__studio {
   color: white;
@@ -164,7 +164,7 @@
 @media screen and (min-width: 1200px) {
   .footer__section {
     display: flex;
-    align-items: baseline;
+    // align-items: baseline;
     width: 1200px;
     margin: 0 auto;
   }
@@ -189,11 +189,12 @@
   .footer__information {
     width: 231px;
     margin-left: 0;
+    margin-right: 93px;
   }
-  .footer__container {
-    width: 515px;
-    margin: 0;
-  }
+  // .footer__container {
+  //   width: 515px;
+  //   margin: 0;
+  // }
   .footer__address {
     width: 231px;
   }

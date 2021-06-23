@@ -70,16 +70,18 @@
                         <a href="" class="mobile__menu-link link">Контакты</a>
                     </li>
                 </ul>
-                <ul class="mobile__contacts list">
+                <div>
+                     <ul class="mobile__contacts list">
                     <li class="mobile__contacts-item"><a class="mobile__contacts-link mobile-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                     <li class="mobile__contacts-item"><a class="mobile__contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                </ul>
-                <ul class="mobile__social-list list">
+                     </ul>
+                     <ul class="mobile__social-list list">
                     <li class="mobile__social-item"><a class="mobile__social-link link" href="">Instagram</a></li>
                     <li class="mobile__social-item"><a class="mobile__social-link link" href="">Twitter</a></li>
                     <li class="mobile__social-item"><a class="mobile__social-link link" href="">Facebook</a></li>
                     <li class="mobile__social-item"><a class="mobile__social-link link" href="">Linkedin</a></li>
-                </ul>
+                  </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -409,7 +411,7 @@
     <!--Подвал-->
     <footer class="footer">
         <div class="footer__section">
-        <div class="footer__container container">
+        <div class="footer__container">
                 <div class="footer__information">
                     <a class="footer__logo link" href="/">Web<span class="footer__studio">Studio</span></a>
                     <address class="footer__address">
@@ -457,17 +459,19 @@
                 </div>
             </div>
 
-            <form class="form form-text">
-                <div class="form-field">
-                    <label class="footer-label" for="name">подпишитесь на рассылку</label>
+            <div class="form-field form-text">
+                <p>подпишитесь на рассылку</p>
+            <form class="form">
+                
+                    <label class="footer-label" for="name"></label>
                     <input class="footer-input" type="email" name="name" id="name" placeholder="E-mail">
             
                     <button class="btn-mail" type="submit">Подписаться <svg class="icon-mail-btn">
                             <use href="./images/spryte.svg.svg#icon-send"></use>
                         </svg> </button>
-                </div>
+                
             </form>
-
+            </div>
         </div>
 
        
