@@ -152,7 +152,7 @@
 
   .footer__container {
     display: flex;
-    align-items: baseline;
+    // align-items: baseline;
     justify-content: space-around;
   }
 
@@ -164,7 +164,7 @@
 @media screen and (min-width: 1200px) {
   .footer__section {
     display: flex;
-    // align-items: baseline;
+    align-items: baseline;
     width: 1200px;
     margin: 0 auto;
   }
@@ -197,5 +197,10 @@
   // }
   .footer__address {
     width: 231px;
+  }
+
+  .footer__box {
+    display: flex;
+    justify-content: baseline;
   }
 }
